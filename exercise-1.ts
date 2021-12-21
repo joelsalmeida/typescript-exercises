@@ -1,5 +1,7 @@
 // Given the data, define the interface "User" and use it accordingly.
 
+// Reference: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#interfaces
+
 export interface User {
   name: string;
   age: number;

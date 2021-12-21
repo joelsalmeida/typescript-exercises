@@ -1,6 +1,8 @@
 // Type "Person" is missing, please define it and use it in persons array
 // and logPerson function in order to fix all the TS errors.
 
+// Reference: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types
+
 interface User {
   name: string;
   age: number;

@@ -3,6 +3,8 @@
 // logPerson function should accept both User and Admin and should output
 // relevant information according to the input: occupation for User and role for Admin.
 
+// Reference: https://www.typescriptlang.org/docs/handbook/2/narrowing.html#the-in-operator-narrowing
+
 interface User {
   name: string;
   age: number;
